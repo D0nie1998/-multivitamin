@@ -68,7 +68,26 @@ h1 {font-family: Nerko One;
             animation-name: hero-zoom;
             animation-duration: 5s;
             animation-fill-mode: forwards;}
-                
+
+
+
+            
+
+            .about ,h6 {
+              font-family: Nerko;
+              text-align: center;
+              padding : 100px;
+              font-size: 50px;
+            }
+      
+          .about ,p {
+            line-height: 3.0;
+            margin-bottom: 20px;
+          }
+              
+            
+        
+        
             #club-ethos
             {   
                 height: 600px;
