@@ -2,7 +2,8 @@
 
 * {margin: 0px ;
     padding: 0px;
-    box-sizing: border-box;}
+    background-color:  burlywood;
+}
 
 h1 {font-family: Nerko One;
     color: #3a3a3a;
@@ -13,7 +14,8 @@ h1 {font-family: Nerko One;
 
 #logo {float: left;
        font-weight : 200%;
-       margin: left; }
+       margin: left;
+      }
 
     
     #list {letter-spacing: 5px;
@@ -126,49 +128,112 @@ h1 {font-family: Nerko One;
                     font-size: 200%;
                 }
             
-                #circle-container {
-                    width: 300px;
-                    height: 300px;
-                    padding: 30px;
-                    border-style: solid;
-                    border-color: #ccc;
-                    border-width: 1px;
-                    border-radius: 50%;
-                    margin: 0;
-                    
-                    
-                    
-                }
                 
-                #circle-cover-bg {
-                    background: url('../images/ethos-center-image.jpg') no repeat, center  center;
-                    height: 100%;
-                    border-radius: 50%;
-                    
-                
-                
-                  
-               
+             
 
-               .column {
-                        float: left;
-                        width: 33.33%;
-                        padding: 5px;
-                      }
-               
-                .column img{
-                        height:300px;
-                    }
 
-                  .row::after {
-                    content: "";
-                    clear: both;
-                    display: table;
-                  }
-    
-    #gaps{ text-align: center;
-        margin: 300px;
-        font-size: 200%;
-    }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+                box-sizing: border-box;
+                border:5px solid #3a3a3a;
+                line-height: 0px;
+                
+              }
+            
+            .column img {
+                height: 300px;
+            }
+             
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+
+             
+        #gaps {
+            margin:200px;
+            text-align: center;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 33%;
+            border-radius: 5px;
+          }
+          
+          .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          
+          .card img {
+            border-radius: 5px 5px 0 0;
+          }
+          
+          .container {
+            padding: 2px 16px;
+            }
+               
+        
+            .image-container {
+                display: flex;
+                justify-content: space-between;
+              }
+            
+              .image {
+                width: 33.33%;
+                height: 250px;
+              }
+           
+
+
+
+  .person-section {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  background-color:aliceblue ;
+  
+}
+
+.person-image {
+  width: 33%;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: bisque;
+
+}
+
+.person-info {
+  flex: 1;
+  background-color: aliceblue;
+}
+
+.person-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:black;
+  text-transform: uppercase;
+  background-color: aliceblue;
+}
+
+.person-bio {
+  font-size: 16px;
+  line-height: 3.0;
+  top:20;
+  background-color: aliceblue;
+  
+}
+
+
+  
+
+
 
     
