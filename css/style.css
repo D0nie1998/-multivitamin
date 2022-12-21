@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto&display=swap');
 
-* {margin: 0px ;
+* {
+    margin: 0px ;
     padding: 0px;
-    background-color:  burlywood;
+    /* background-color:  burlywood; */
 }
 
+nav,footer{
+  height: 70px;
+  background-color: rgb(219, 78, 78);
+}
+.content{
+  padding: 20px;
+}
 h1 {font-family: Nerko One;
     color: #3a3a3a;
     margin-left: 0px;
@@ -75,14 +83,14 @@ h1 {font-family: Nerko One;
 
             .about ,h6 {
               font-family: Nerko;
-              text-align: center;
-              padding : 100px;
+              padding : 50px;
               font-size: 50px;
             }
       
           .about ,p {
             line-height: 3.0;
             margin-bottom: 20px;
+            top:20;
           }
               
             
@@ -143,7 +151,7 @@ h1 {font-family: Nerko One;
                 
                 #welcome {
                     text-align: center;
-                    margin: 20px;
+                    margin: 200px;
                     font-size: 200%;
                 }
             
@@ -249,6 +257,23 @@ h1 {font-family: Nerko One;
   background-color: aliceblue;
   
 }
+footer ul{
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+  margin-right: 15%;
+}
+/* footer a{
+  width: 100px;
+} */
+footer i{
+  font-size: 30px;
+}
+
 
 
   
