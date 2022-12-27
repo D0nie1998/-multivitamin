@@ -10,8 +10,11 @@ header {
   color: black
 }
 
+
+
    nav,footer{
   height: 100px; 
+  ;
  }   
 
    .content{
@@ -60,7 +63,7 @@ h1 {font-family: Nerko One;
                      text-transform:uppercase;
                      letter-spacing: 4px;
                     
-                    height:200px;
+        
                     width:300px;
                 
                     padding-top: 40px;
@@ -119,7 +122,8 @@ h1 {font-family: Nerko One;
                     
                     .left-about-heading {
                         width: 60%;
-                        float: right;
+                        
+                        float: right; 
                         line-height: 20px;
                         clear: both;
                         margin-bottom: 50px;
@@ -128,7 +132,8 @@ h1 {font-family: Nerko One;
                     
                     .right-about-heading {
                         width: 60%;
-                        float: left;
+                        
+                       float: left; 
                         line-height: 20px;
                         clear: both;
                         margin-bottom: 50px;
@@ -137,6 +142,8 @@ h1 {font-family: Nerko One;
                     .right-about-heading h2 {
                         text-align: right;
                     }
+
+                    
 
                     h4 {text-transform: uppercase;
                         font-family: Nerko One;
@@ -223,22 +230,22 @@ h1 {font-family: Nerko One;
   align-items: center;
   border: 1px solid black;
   padding: 20px;
-  background-color:aliceblue ;
-  
+
 }
 
 .person-image {
   width: 33%;
-  height: 300px;
+ /* height: 300px; */
   border-radius: 50%;
   margin-right: 20px;
-  background-color: bisque;
+ 
+ 
 
 }
 
 .person-info {
   flex: 1;
-  background-color: aliceblue;
+ 
 }
 
 .person-name {
@@ -247,7 +254,7 @@ h1 {font-family: Nerko One;
   margin-bottom: 0px;
   color:black;
   text-transform: uppercase;
-  background-color: aliceblue;
+ 
 }
 
 .person-bio {
@@ -294,8 +301,63 @@ footer i{
 
   #photos > img {
     width: 100%;
-  }
+  }  
 
+  /* sign up form */
+  .form-section {
+    clear: left;
+    background-image: url(..//images/signupplease.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
 
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: #fafafa;
+    width: 100%;
+    color:#fafafa;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #29f7f7;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #29f7f7;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b; }
+
+/*
+@media screen and (max-width: 1200px;) {
+  
+}
     
