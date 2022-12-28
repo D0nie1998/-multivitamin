@@ -20,6 +20,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  background-color: dimgrey;
 }
 
 nav ul{
@@ -36,7 +37,7 @@ nav ul{
 
 .content {
   padding: 0px;
-  margin-top: 6.9rem;
+  margin-top: 2.9rem;
 }
 
 h1 {
@@ -116,9 +117,6 @@ h2 {
   width: 100%;
   background: url(/images/River-project.jpg) no-repeat center center;
   background-size: cover;
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
 
@@ -415,6 +413,11 @@ footer {
   }
 }
 
+@media screen and (max-width:1024px) {
+  #hero-image {
+    padding: 50px
+  }
+}
 
 
  
