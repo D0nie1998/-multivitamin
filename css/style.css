@@ -44,6 +44,10 @@ nav ul li a {
   padding-right: 80px;
 }
 
+#active {
+  border-bottom: solid 1px #3a3a3a;
+}
+
 #hero-outer {
   width: 100%;
   overflow: hidden;
