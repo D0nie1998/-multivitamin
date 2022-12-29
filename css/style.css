@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto&display=swap");
 
 * {
   margin: 0px;
@@ -15,15 +15,13 @@ header {
   background: white;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: dimgrey;
+  
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -55,25 +53,24 @@ h1 {
   color: black;
 }
 
-
 #list {
   letter-spacing: 5px;
   font-size: 110%;
 }
 
 #list li {
-     list-style-type: none;
-     padding: 20px
+  list-style-type: none;
+  padding: 20px;
 }
 
 #list a {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
 #list,
 #logo {
-  line-height: 100%
+  line-height: 100%;
 }
 
 #list a:hover {
@@ -99,7 +96,6 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
 
-
   width: 300px;
 
   padding-top: 40px;
@@ -109,7 +105,6 @@ h2 {
 
   bottom: 30px;
   right: 150px;
-
 }
 
 #hero-image {
@@ -119,17 +114,10 @@ h2 {
   background-size: cover;
 }
 
-
-
-
-
-
-
 #club-ethos {
   height: 600px;
   text-align: center;
 }
-
 
 #left-about {
   padding-top: 30px;
@@ -161,7 +149,6 @@ hr {
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
-
 }
 
 .right-about-heading {
@@ -177,12 +164,10 @@ hr {
   text-align: right;
 }
 
-
-
 h4 {
   text-transform: uppercase;
   font-family: Nerko One;
-  font-size: 35px
+  font-size: 35px;
 }
 
 #welcome {
@@ -198,8 +183,6 @@ h4 {
   margin-bottom: 25%;
 }
 
-
-
 .column {
   float: left;
   width: 33.33%;
@@ -207,7 +190,6 @@ h4 {
   box-sizing: border-box;
   border: 5px solid #3a3a3a;
   line-height: 0px;
-
 }
 
 .column img {
@@ -219,7 +201,6 @@ h4 {
   clear: both;
   display: table;
 }
-
 
 #gaps {
   margin: 0px;
@@ -246,7 +227,6 @@ h4 {
   padding: 2px 16px;
 }
 
-
 .image-container {
   display: flex;
   justify-content: space-between;
@@ -257,7 +237,6 @@ h4 {
   height: 250px;
 }
 
-
 /* Famous Meditators */
 
 .person-section {
@@ -265,23 +244,18 @@ h4 {
   align-items: center;
   border: 1px solid black;
   padding: 20px;
-
 }
 
 .person-image {
   width: 33%;
-   height: 300px; 
+  height: 300px;
   border-radius: 50%;
   margin-right: 20px;
-  padding: 20px
-
-
-
+  padding: 20px;
 }
 
 .person-info {
   flex: 3;
-
 }
 
 .person-name {
@@ -290,16 +264,12 @@ h4 {
   margin-bottom: 0px;
   color: black;
   text-transform: uppercase;
-
 }
 
 .person-bio {
   font-size: 16px;
-  line-height: 4.0;
+  line-height: 4;
   margin-bottom: 10%;
-
-
-
 }
 
 footer ul {
@@ -321,47 +291,45 @@ footer i {
   font-size: 30px;
 }
 
-
-
 footer {
   margin-top: 25px;
   color: rgb(219, 78, 78);
-
 }
 
+/* Gallery page */
 
 #photos {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-#photos>img {
-  width: 100%;
+#photos > img {
+  flex: 20%;
+  cursor: pointer;
 }
 
 /* sign up form */
 .form-section {
-  clear: left;
   background-image: url(..//images/signupplease.jpg);
   background-size: cover;
-  background-position: center;
+  justify-content: center;
   height: 800px;
-}
-
-.signup-form {
-  margin: 150px 10% 0 0;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
+  display: flex; 
+  margin-top: 50px;
   padding: 30px;
 }
 
-.signup-form>h2 {
+.signup-form {
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 50px;
+}
+
+.signup-form > h2 {
   color: #fafafa;
   margin-bottom: 20px;
 }
@@ -396,28 +364,14 @@ footer {
   color: #f16c6b;
 }
 
-@media screen and (max-width: 600px) {
-  #photos{
-    column-count: 1;
-}
-}
+/* media queries */
 
 
-@media screen and (max-width: 992px) {
-    nav{
-      flex-direction: column;
-    }
-
-  #photos{
-      column-count: 2;
+@media only screen and (max-width: 800px) {
+  .signup-form {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 25%;
   }
+  
 }
-
-@media screen and (max-width:1024px) {
-  #hero-image {
-    padding: 50px
-  }
-}
-
-
- 
