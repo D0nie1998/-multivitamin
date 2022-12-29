@@ -118,65 +118,40 @@ h2 {
   height: 600px;
   text-align: center;
 }
-
-#left-about {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
+#about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
-
-#right-about {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
-}
-
-#center-about {
-  width: 33%;
-  margin: 0 auto;
-}
-
-hr {
-  border-top: 1px solid #3a3a3a;
+#abouts {
+  display: flex;
   width: 100%;
-  margin: 5px 0;
+  flex-wrap: wrap;
+  gap: 20%;
 }
-
-.left-about-heading {
-  width: 60%;
-
-  float: right;
-  line-height: 20px;
-  clear: both;
+#welcome {
+  text-align: center;
   margin-bottom: 50px;
+  font-family: Nerko One;
+  font-size: 3rem;
 }
-
-.right-about-heading {
-  width: 60%;
-
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-  text-align: right;
+.about {
+  flex: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
 }
 
 h4 {
   text-transform: uppercase;
   font-family: Nerko One;
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 
-#welcome {
-  text-align: center;
-  margin: 0px;
-  font-size: 300%;
-  height: 200px;
-  padding-bottom: 50px;
-}
 
 .space {
   margin-top: 100px;
@@ -239,38 +214,30 @@ h4 {
 
 /* Famous Meditators */
 
+.person{
+  display:flex;
+  justify-content: space-evenly;
+  gap: 4%;
+}
+
 .person-section {
-  display: flex;
-  align-items: center;
-  border: 1px solid black;
-  padding: 20px;
+  width: 30% ;
 }
 
 .person-image {
   width: 33%;
-  height: 300px;
-  border-radius: 50%;
-  margin-right: 20px;
-  padding: 20px;
+  border-radius: 100%;
 }
 
-.person-info {
-  flex: 3;
-}
-
-.person-name {
+ .person-name {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 0px;
   color: black;
   text-transform: uppercase;
+  font-family: Nerko One;
 }
 
-.person-bio {
-  font-size: 16px;
-  line-height: 4;
-  margin-bottom: 10%;
-}
+
 
 footer ul {
   padding-top: 20px;
