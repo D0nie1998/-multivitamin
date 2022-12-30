@@ -3,9 +3,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* background-color:  burlywood; */
+ 
 }
 
+/* header and nav bar */
 header {
   color: black;
 }
@@ -85,56 +86,7 @@ h2 {
   margin-bottom: 25%;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  box-sizing: border-box;
-  border: 5px solid #3a3a3a;
-  line-height: 0px;
-}
 
-.column img {
-  height: 300px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-#gaps {
-  margin: 0px;
-  font-size: 3rem;
-  text-align: center;
-  padding: 50px;
-  font-family: Nerko One;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 33%;
-  border-radius: 5px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card img {
-  border-radius: 5px 5px 0 0;
-}
-
-.container {
-  padding: 2px 16px;
-}
-
-.image-container {
-  display: flex;
-  justify-content: space-between;
-}
 
 .image {
   width: 33.33%;
@@ -195,6 +147,8 @@ h4 {
   text-transform: uppercase;
   font-family: Nerko One;
 }
+
+/* footer */
 footer {
   margin-top: 25px;
   color: rgb(219, 78, 78);
@@ -204,27 +158,25 @@ footer ul {
   width: 100%;
   margin-bottom: 10px;
   text-align: center;
+
 }
 footer ul li {
   display: inline-block;
-  margin-right: 15%;
+  margin-right: 15%
 }
-/* footer a{
-  width: 100px;
-} */
+
 footer i {
   font-size: 30px;
 }
 
 #photos {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0; }
 
 #photos > img {
-  flex: 20%;
-  cursor: pointer;
+ width: 100%;
 }
 
 /* sign up form */
@@ -324,15 +276,20 @@ footer i {
     margin-top: 10px;
     text-align: center;
   }
+
+  #photos {
+    column-count: 2;
+  }
+ 
   #photos > img {
     width: 100%;
-  }
+    }
   .form-section {
     width: 100%;
   }
   .signup-form {
     max-width: 100%;
     width: 100%;
-    margin-right: 25%;
+    margin-right: 20%;
   }
 }
