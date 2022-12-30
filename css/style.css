@@ -230,7 +230,7 @@ footer i {
 /* sign up form */
 
 .form-section {
-  background: url(..images/signupplease.jpg) no-repeat center center;
+  background: url(../images/signupplease.jpg) no-repeat center center;
   background-size: cover;
   height: 800px;
   display: flex;
