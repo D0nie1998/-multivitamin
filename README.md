@@ -1,7 +1,7 @@
 # Welcome to Meditation Mastery!
 
 
-[Am I Responsive?](./images/Readme/amiresponsive.png)
+[Am I Responsive?](/images/Readme/amiresponsive.png)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
@@ -62,6 +62,9 @@ interact and meet like-minded people!
 <br />
 
 # Features
-The website consists of three pages that are responsive, the pages are Home, Gallery and Sign Up. 
+The website consists of three pages that are responsive, the pages are Home, Gallery and Sign Up.
+
+## Home
 
 ### Logo and navigation bar
+- For the logo i used google fonts tp
