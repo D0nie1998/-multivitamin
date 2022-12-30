@@ -1,108 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to Meditation Mastery!
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Am I Responsive?](./images/Readme/amiresponsive.png)
+[Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Table of Content
+1. [Introduction](#introduction)
+2. [Objectives & goals](#objectives--goals)
+3. [User experience](#user--experience)
+4. [Features](#features)
 
-## Gitpod Reminders
+# Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Meditation Mastery is a page that i have created for the purpose of trying to  get as much people as people as possible educated in the incredible amazing benefits of meditation. It has had a very big impact on my life so i hope that it can have an impact on many others.
 
-`python3 -m http.server`
+This is the first website that i have created and i hope you can enjoy what you got to see, thanks for taking the time to read!
+<br />
+<br />
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+# Objectives & goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Objectives for meditation mastery are:
 
-A blue button should appear to click: _Make Public_,
+1. For this website to be a stepping stone for people who want to learn meditation.
+2. Have the most reliable and up to date information on the internet.
+3. To be able to start a community which share the same goals.
+4. Be able to work on all devices and being responsive in the process
+5. Show all the benefits and all the people that have greatly benefited from this website.
+6. Provide an easy to navigate web site.
 
-Another blue button should appear to click: _Open Browser_.
+I have big plans for this website in the next year and it excites me from what 2 months of learning html and css have taught me in this short space of time.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+My goals for the future is:
 
-To log into the Heroku toolbelt CLI:
+1. Start a blog in the website where i can post information that people can see and interact with.
+2. Add videos and tutorials on meditation to show people how to actually do it.
+3. Add club and businesses  on to the page so i can show people where they are clubs to join so they can 
+interact and meet like-minded people!
+4. To be able to be recognised as one of the top meditation website and most reliable websites on the internet.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<br />
+<br />
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# User experience 
+###  First time user, I want to:
 
-------
+- Easily navigate around the site and find all the relevant information to discover if I am interested in bringing my project there.
+- Be able to find relevant and factual information.
+- To see if it will be worth my time to come back to the page and visit again.
 
-## Release History
+### As a returning user, I want to:
+- Easily be able to send a message to the page and possibly establish a connection with the site owner.
+- Find videos about the origin about the practice of meditation to be educated on the history
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### As a frequent user, I want to: 
+- Be able to educated in the all the types of meditation and how it is done so i can get the full benefit of the experience
+-  Have a good knowledge of clubs or businesses that are associated with meditation
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<br />
+<br />
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Features
+The website consists of three pages that are responsive, the pages are Home, Gallery and Sign Up. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Logo and navigation bar
