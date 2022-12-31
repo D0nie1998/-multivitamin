@@ -1,7 +1,7 @@
 # Welcome to Meditation Mastery!
 
 
-(/images/Readme/amiresponsive.png)
+[Am I Responsive](./images/readme/amiresponsive.jpg)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
@@ -69,3 +69,4 @@ The website consists of three pages that are responsive, the pages are Home, Gal
 ### Logo and navigation bar
 - For the logo i used google fonts to style the meditation mastery in an way that would catch the eye of the user as i feel that first impressions on a website go a long way in towards retention
 - The navigation bar is responsive and easy to use in every device for the user, 
+
