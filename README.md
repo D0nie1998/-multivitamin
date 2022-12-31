@@ -1,7 +1,7 @@
 # Welcome to Meditation Mastery!
 
 
-(./images/readme/amiresponsive.jpg)
+(/images/readme/amiresponsive.jpg)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
@@ -154,6 +154,14 @@ You can view the website at this link [here](https://d0nie1998.github.io/Meditat
 
  # Acknowledgements 
 
+## Content
+1. For my logo and font style i used googlefonts to get a style to suit the look i was desiring.
+2. For the pictures in the three pages i used [pinterest](https://www.pinterest.ie/), a site i have admired for years and it is great that i can finally use their content to help me show my coding skills, i also used google images for the other images.
+3. For flex boxing i used [The net ninja](https://www.youtube.com/@NetNinja) as he helped me figure out some of the issues i was having with and it massively helped me merit the rewards of finishing the website!
+4. All the information that i used in the page was from [healthline.com](https://www.healthline.com/), a very reliable page which helped me greatly 
+
+## People
+1. I wouldn't of been able to do this if it wasent for my mentor Jubril, he helped me a lot of over the last month helping me regain confidence in myself to complete the project and always pointing me towards resources that can help me. I would also like to thank code institute for giving me excellent lessons and information that helped me along the process.
 
 
 
