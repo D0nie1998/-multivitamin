@@ -1,14 +1,16 @@
 # Welcome to Meditation Mastery!
 
 
-[Am I Responsive](./images/readme/amiresponsive.jpg)
+(./images/readme/amiresponsive.jpg)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
 1. [Introduction](#introduction)
 2. [Objectives & goals](#objectives--goals)
-3. [User experience](#user--experience)
+3. [User experience](#user-experience)
 4. [Features](#features)
+5. [Testing & Validation](#testing--validation)
+6. [Technologies](#technologies)
 
 # Introduction
 
@@ -69,6 +71,67 @@ The website consists of three pages that are responsive, the pages are Home, Gal
 ### Logo and navigation bar
 - For the logo i used google fonts to style the meditation mastery in an way that would catch the eye of the user as i feel that first impressions on a website go a long way in towards retention
 - The navigation bar is responsive and easy to use in every device for the user to usr and navigate through the different websites
+
+[Desktop navigation](./images/readme/navbar.jpg)
+[phone navigation](./images/readme/navbar-phone.jpg)
+Getting it repsonsive was a challenging task for a beginner coder but the lessons i was taught from the lessons were very helpful 
+
+### Why start Meditation
+- In this section i added four of the most common benefits of meditation in a way that was easy to understand for the people reading.
+- I took inspiration from the club ethos section for this task by spacing them evenly and also by using flex boxing instead of float.
+- I experimented a lot with a color for the background but i found this color on a website so I tried it on this section and i thought it added a lot.
+
+
+[About section](./images/readme/about%20section.png)
+
+### Famous people who meditate
+- For this part i searched three of the most famous people that i knew and admired so i could put them in for people who meditated.
+- I again used flex-boxing for this as it made it easier to control the position of the information.
+- The description of the people talked about who they were so that anyone who didnt know them could be briefly educated on who they were, then i found their insight on meditation and how it had helped them.
+
+[Famous people who Meditate](./images/readme/famousmeditators.png)
+
+## Gallery
+- In the gallery page I used about 16 images from different websites across the internet to show people how people do their meditation pose and the different cultures way of doing it.
+- It is responsive and is easy to navigate through this website
+
+[Gallery desktop](./images/readme/gallery-desktop.png)
+[Gallery phone](./images/readme/gallery-phone.png)
+
+## Sign up 
+- The sign up page is a chance for people to sign up if they want to continue their journey into furthuring their understanding of meditation.
+- I again took inspiration from the love running sign up page as it looked very impressive to me so i used that template with my own tweaks 
+
+## Footer
+- For the footer i used an easy and responsive design 
+
+[Footer](./images/readme/footer.png)
+
+[Sign up desktop](./images/readme/signup-desktop.png)
+[Sign up phone](./images/readme/signup-phone.png)
+
+<br />
+<br />
+
+# Testing & Validation
+
+
+# Technologies
+Languages used in this site are HTML  and CSS
+Additional technologies include: 
+- Google fonts
+  - Used for the logo font
+- Font Awesome
+  - Was used for the footer logos
+- Chrome DevTools
+   - For debugging and testing responsiveness during development
+- GitHub
+  - Site repository
+- Gitpod
+  - Online site that i used to develop the website using html and css
+  
+  <br />
+  <br />
 
 
 
