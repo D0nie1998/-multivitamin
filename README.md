@@ -1,7 +1,7 @@
 # Welcome to Meditation Mastery!
 
 
-(/images/readme/amiresponsive.jpg)
+(images/readme/amiresponsive.jpg)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
@@ -102,18 +102,50 @@ Getting it repsonsive was a challenging task for a beginner coder but the lesson
 - The sign up page is a chance for people to sign up if they want to continue their journey into furthuring their understanding of meditation.
 - I again took inspiration from the love running sign up page as it looked very impressive to me so i used that template with my own tweaks 
 
+[Sign up desktop](./images/readme/signup-desktop.png)
+[Sign up phone](./images/readme/signup-phone.png)
+
 ## Footer
 - For the footer i used an easy and responsive design 
 
 [Footer](./images/readme/footer.png)
 
-[Sign up desktop](./images/readme/signup-desktop.png)
-[Sign up phone](./images/readme/signup-phone.png)
+
 
 <br />
 <br />
 
 # Testing & Validation
+
+## Testing
+
+-The site's code has been tested on W3C html validator and W3C CSS validator
+-The site was mainly tested during development on Google Chrome uusing the browser's developer tool using inspect, and has also been tested on Safari and Firefox browsers with coresponding use of developer tools.
+
+## Validation
+</br>
+
+## Html
+
+### Home
+ In the home page there was 2 errors on the first page as they said there was 2 parse errors as one of them had an opening and other closing html tag.
+
+[home validation error](/images/readme/homeandgalleryvalid.png)
+
+### Gallery
+ For my gallery page there was also error messages saying that were parse errors, the exact same ones as home.
+ [gallery validation error](/images/readme/homeandgalleryvalid.png)
+
+### Sign Up
+I ran into 3 errors on this page, one of them was that the form tag wasent closed but if i used the closing tag it would affect the look of the whole website.
+[Sign up validation error](/images/readme/signuppagevalid.png)
+
+
+## CSS
+For this there also was 3 errors that were all on the logo tag in the navigation bar.
+[css validation error](/images/readme/cssvalidationerror.png)
+
+
 
 
 # Technologies
@@ -134,7 +166,7 @@ Additional technologies include:
   <br />
 
 
-  # Deployment
+# Deployment
   
 
 ## GitHub
@@ -161,7 +193,7 @@ You can view the website at this link [here](https://d0nie1998.github.io/Meditat
 4. All the information that i used in the page was from [healthline.com](https://www.healthline.com/), a very reliable page which helped me greatly 
 
 ## People
-1. I wouldn't of been able to do this if it wasent for my mentor Jubril, he helped me a lot of over the last month helping me regain confidence in myself to complete the project and always pointing me towards resources that can help me. I would also like to thank code institute for giving me excellent lessons and information that helped me along the process.
+- I wouldn't of been able to do this if it wasent for my mentor Jubril, he helped me a lot of over the last month helping me regain confidence in myself to complete the project and always pointing me towards resources that can help me. I would also like to thank code institute for giving me excellent lessons and information that helped me along the process.
 
 
 
