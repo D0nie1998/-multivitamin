@@ -1,7 +1,7 @@
 # Welcome to Meditation Mastery!
 
 
-(images/readme/amiresponsive.jpg)
+[Am I Responsive](/gallery.htmlimages/readme/amiresponsive.jpg)
 [Live Site](https://d0nie1998.github.io/Meditation-mastery/) is hosted on Github Pages
 
 # Table of Content
