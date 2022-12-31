@@ -145,7 +145,8 @@ I ran into 3 errors on this page, one of them was that the form tag wasent close
 For this there also was 3 errors that were all on the logo tag in the navigation bar.
 [css validation error](/images/readme/cssvalidationerror.png)
 
-
+## Bugs 
+- I had trouble adding images to the readme but i was able to put a link to the photos, im sorry for the inconvenience.
 
 
 # Technologies
