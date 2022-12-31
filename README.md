@@ -134,5 +134,26 @@ Additional technologies include:
   <br />
 
 
+  # Deployment
+  
+
+## GitHub
+This project was deloyed to GitHub Pages with the following steps:
+1. Log in to GitHub using your account details if you have one.
+2. Locate the [GitHub Respository](https://github.com/NickWaldock/AwesomeAudio_Site_1)
+3. On the repository page, find the 'Settings' icon anc click on it
+4. In the Settings page, look for and click the 'Pages' menu item on the left hand side (under section titled 'Code and automation', you may need to scroll down slightly)
+5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
+6. After a few minutes, the site will be published
+<br />
+
+You can view the website at this link [here](https://d0nie1998.github.io/Meditation-mastery/)
+
+<br />
+<br />
+
+ # Acknowledgements 
+
+
 
 
